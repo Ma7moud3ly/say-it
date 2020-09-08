@@ -17,7 +17,7 @@ document.body.innerHTML += `<div id="pop" style="
     vertical-align: middle;
     padding: 2px;
 ">
-<img id="say" style="display:inline-block;height:20px;vertical-align: middle;" src="https://png.pngtree.com/png-vector/20190214/ourlarge/pngtree-speaker-icon-graphic-design-template-vector-png-image_507139.jpg"/>
+<img id="say" style="display:inline-block;height:20px;vertical-align: middle;" src="https://raw.githubusercontent.com/Ma7moud3ly/say-it/master/say.png"/>
 <label id="text"></label>
 </div>`;
 
