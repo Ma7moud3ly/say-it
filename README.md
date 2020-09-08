@@ -3,11 +3,11 @@ A google chrome extension speaks and translates the selected text.
 
 ### How To Install
 
-- Cone Or Download the repo.
+- Clone Or Download the repo.
 - Open chrome extensions chrome://extensions
-- Enable Developer Mode
+- Enable Developer Mode.
 - Click on Load unpacked and select the repo directory.
-- Say-It extension will apper in extension menu.
+- Say It extension will apper in extension menu.
 
 ### How To Use
 
