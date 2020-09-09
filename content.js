@@ -6,20 +6,19 @@
 
 
 //pop up menu appers when user select a text on pressing CTRL
-document.body.innerHTML += `<div id="pop" style="
-    position:absolute;
-    top:200px;left:200px;
-    display:inline-block;
-    z-index:100;
-    background: #aba9a9;
-    color: blue;
-    text-align: center;
-    vertical-align: middle;
-    padding: 2px;
-">
-<img id="say" style="display:inline-block;height:20px;vertical-align: middle;" src="https://raw.githubusercontent.com/Ma7moud3ly/say-it/master/say.png"/>
-<label id="text"></label>
-</div>`;
+
+var img = document.createElement('img');
+img.setAttribute("id","say");
+img.setAttribute("src","https://raw.githubusercontent.com/Ma7moud3ly/say-it/master/say.png");
+img.style.cssText='display:inline-block;height:20px;vertical-align: middle;'
+var label = document.createElement('label');
+label.setAttribute("id","text");
+var div = document.createElement('div');
+div.setAttribute("id","pop");
+div.style.cssText='position:absolute;top:200px;left:200px;display:inline-block;z-index:100;background: #aba9a9;color: blue;text-align: center;vertical-align: middle;padding: 2px;';
+div.appendChild(img);
+div.appendChild(label);
+document.body.appendChild(div);
 
 var selectedText = '';
 //pop up menu

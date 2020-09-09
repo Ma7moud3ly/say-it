@@ -22,10 +22,6 @@
 			],
 			"js": [
 				"content.js"
-			],
-			"exclude_matches": [
-				"*://www.youtube.com/*",
-				"*://translate.google.com.eg/*"
 			]
 		}
 	]
