@@ -1,4 +1,5 @@
 # Say IT
+<img src='screenshot.png'>
 A google chrome extension speaks and translates the selected text.
 
 ### How To Install
